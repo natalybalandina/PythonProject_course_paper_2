@@ -33,9 +33,9 @@ class FileHandler(ABC):
 class JSONFileHandler(FileHandler):
     """Класс для работы с JSON-файлами."""
 
-    def __init__(self, filename: str = "data/test_vacancies.json") -> None:
+    #def __init__(self, filename: str = "data/test_vacancies.json") -> None:
     # Строка для проверки работоспособности кода. Записывает информацию в test_vacancies.json
-    # def __init__(self, filename: str = "data/vacancies.json") -> None:
+    def __init__(self, filename: str = "data/vacancies.json") -> None:
         self._filename = filename
         self._ensure_file_exists()
 
