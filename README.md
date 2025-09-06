@@ -52,7 +52,7 @@ title link salary description.
 python main.py
 ```
 
-*Проверка работоспособности кода протестирована в файле 'test_vacancies.json'*
+*Проверка работоспособности кода протестирована в файле 'test_vacancies.json'. Для этого в файле 'file_handler.py' расскомитить строку*
 
 Пример релаизации кода:
 ```
